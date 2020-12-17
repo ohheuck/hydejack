@@ -42,7 +42,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 #include <Wire.h>
 #include "Adafruit_TCS34725.h"
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
-# include <Servo.h>
+#include <Servo.h>
 Servo myservo;
 int angle = 0; 
 int buttonstate = 0;
