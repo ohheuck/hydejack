@@ -19,7 +19,7 @@ KyungHee University
 
 ## Adventure design
 
-[![Lego color sorter](http://img.youtube.com/vi/54u4IRjY2-E&feature/0.jpg)](https://youtu.be/54u4IRjY2-E&feature?t=0s) 
+[![Lego color sorter](http://img.youtube.com/vi/54u4IRjY2-E/0.jpg)](https://youtu.be/54u4IRjY2-E?t=0s) 
 
 
 LEGO COLOR SORTER
