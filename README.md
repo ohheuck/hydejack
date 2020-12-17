@@ -1,16 +1,11 @@
 
 
-# Hydejack
+# Introduction
 
-A boutique Jekyll theme for hackers, nerds, and academics.  
-
-
+Oh-Heuck Kwon | Student | First grade | Department of Electronic Engineering | KyungHee University
 
 
 
-[![Screenshot](https://hydejack.com/assets/img/blog/hydejack-9.jpg)][welcome]
-
-Hydejack's cover page on a variety of screens.
 
 
 
