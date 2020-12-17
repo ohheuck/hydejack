@@ -51,9 +51,9 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Adventure design
-    url:               /#a-personal-site-that-wont-disappear
-  - title:             Documentation
-    url:               /docs/
+    url:               /#a-printable-resume
+  - title:             Embedded system design
+    url:               /#just-markdown
   - title:             About
     url:               /about/
 
