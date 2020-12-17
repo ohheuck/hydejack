@@ -18,13 +18,8 @@ KyungHee University
 
 
 ## Adventure design
-Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](file:///C:/Users/%EA%B6%8C%EC%98%A4%ED%98%81/Desktop/%EC%B0%AC%EB%9E%80%ED%95%98%EA%B3%A0%20%EC%B9%98%EC%97%B4%ED%96%88%EB%8D%98%202020/2020-2%ED%95%99%EA%B8%B0/%EB%AC%BC%EB%A6%AC%ED%95%99%EB%B0%8F%EC%8B%A4%ED%97%982/adventure-design.pdf).
 
-
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-
-
-[![IU(아이유) _ Into the I-LAND](http://img.youtube.com/vi/QYNwbZHmh8g/0.jpg)](https://youtu.be/QYNwbZHmh8g?t=0s) 
+[![Lego color sorter](http://img.youtube.com/vi/54u4IRjY2-E&feature=youtu.be/0.jpg)](https://youtu.be/54u4IRjY2-E&feature=youtu.be?t=0s) 
 
 [![Resume JPG](![555](https://user-images.githubusercontent.com/73648472/102499869-09aa0280-40bf-11eb-8817-479055d3f388.jpg)
 )][resume]
