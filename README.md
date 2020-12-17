@@ -22,7 +22,8 @@ Get a resume that's consistent across the board — whether it's on the web, mob
 
 * [Install]{:.heading.flip-title} --- How to install and run Hydejack.
 
-https://www.youtube.com/watch?v=ZeerrnuLi5E&list=RDjl6ooOu9dWs&index=2
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZeerrnuLi5E&list=RDjl6ooOu9dWs&index=2" frameborder="0" allowfullscreen></iframe>
+
 
 
 [![Resume JPG](![555](https://user-images.githubusercontent.com/73648472/102499869-09aa0280-40bf-11eb-8817-479055d3f388.jpg)
