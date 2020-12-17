@@ -23,7 +23,7 @@ Get a resume that's consistent across the board — whether it's on the web, mob
 * [Install]{:.heading.flip-title} --- How to install and run Hydejack.
 
 
-[![Resume JPG](![555](https://user-images.githubusercontent.com/73648472/102498912-e9c60f00-40bd-11eb-8243-3afee59d28a1.jpg)
+[![Resume JPG](![555](https://user-images.githubusercontent.com/73648472/102499869-09aa0280-40bf-11eb-8817-479055d3f388.jpg)
 )][resume]
 
 LEGO COLOR SORTER
