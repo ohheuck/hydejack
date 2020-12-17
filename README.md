@@ -35,7 +35,7 @@ A brief introduction : We have created a machine that categorizes Lego by color 
 
 
 ## Embedded system design
-to be continued
+I'm going to take a class in the third grade.
 
 
 
