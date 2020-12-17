@@ -34,6 +34,129 @@ A brief introduction : We have created a machine that categorizes Lego by color 
 
 
 
+
+CODE
+
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x27,16,2);
+#include <Wire.h>
+#include "Adafruit_TCS34725.h"
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+# include <Servo.h>
+Servo myservo;
+int angle = 0; 
+int buttonstate = 0;
+int lastbuttonstate = 0;
+int count = 0;
+int num1 = 0;
+int num2 = 0;
+int num3 = 0;
+void setup() {
+  Serial.begin(9600);
+  if (tcs.begin())
+  {
+    Serial.println("Found sensor");      // 디버깅 용
+  }
+  else
+  {
+    Serial.println("No TCS34725 found ... check your connections");
+  }
+  myservo.attach(9);
+  pinMode(7,INPUT);
+  lcd.begin();
+  lcd.print("Lego count");
+  lcd.setCursor(0,1);
+  lcd.print("R.");
+  lcd.setCursor(5,1);
+  lcd.print("B.");
+  /*
+  lcd.setCursor(10,1);
+  lcd.print("3.");
+  */
+  lcd.backlight();
+}
+
+void loop() {
+  buttonstate = digitalRead(7);
+  if (buttonstate!= lastbuttonstate)
+  {
+    count++;
+    lastbuttonstate = buttonstate;
+  }
+  if (count%4==2)
+  {
+      uint16_t clear, red, green, blue;
+      tcs.getRawData(&red, &green, &blue, &clear);
+      delay(1);
+      int r = map(red,0,21504,0,1025);
+      int g = map(green,0,21504,0,1025);
+      int b = map(blue,0,21504,0,1025);
+      delay(500);
+      
+      Serial.print("   R: "); 
+      Serial.print(r);        // 시리얼 모니터에 빨간색 값 출력 
+      Serial.print("   G: "); 
+      Serial.print(g);        // 시리얼 모니터에 초록색 값 출력 
+      Serial.print("   B: "); 
+      Serial.println(b);      // 시리얼 모니터에 파란색 값 출력
+      
+      //delay(1000);
+      if (r>g && r>b)
+      {
+        num1++;
+        lcd.setCursor(2,1);
+        lcd.print(num1);
+        delay(1900);
+        for(angle = 90; angle < 140; angle++)
+        {
+         myservo.write(angle);             
+         delay(15);
+        }
+        for(angle = 140; angle >90; angle--)
+        {
+         myservo.write(angle);              
+         delay(15);
+        }
+
+
+        delay(1);
+      }
+      /*
+
+      else if (g>r && g>b)
+      {
+        num2++;
+        delay(3);
+        lcd.setCursor(7,1);
+        lcd.print(num2);
+        delay(1);
+      }
+      */
+      else if (g>r && g>=b &&  g-r>=8 )
+      {
+        num2++;
+        lcd.setCursor(7,1);
+        lcd.print(num2);
+        delay(1900);
+        for(angle = 90; angle>40; angle--)
+        {
+          myservo.write(angle);             
+          delay(15);
+        }
+        for(angle = 40; angle<90; angle++)
+        {
+          myservo.write(angle);             
+          delay(15);
+        }
+        delay(1);
+      }
+  }
+
+}
+
+
+
+
 ## Embedded system design
 I'm going to take a class in the third grade.
 
