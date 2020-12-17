@@ -30,7 +30,7 @@ Producer1 : Oh-Heuck Kwon
 Producer2 : Min-He Kim   
 Production period : 2nd semester of 2020   
 
-A brief introduction : We have created a machine that categorizes Lego by color and counts how many colors each have. The color sensor recognizes the color of the Lego as it passes the conveyor belt, and then counts it on the LCD monitor. After 2 seconds of detection, the servo motor at the end of the conveyor belt rotates left and right depending on the color and classifies the same color. We made it based on the Arduino we learned in class. And the conveyor belt is made from 3D printing.
+A brief introduction : We have created a machine that categorizes Lego by color and counts how many colors each have. The color sensor recognizes the color of the Lego as it passes the conveyor belt, and then counts it on the LCD monitor. After 1900 microseconds of detection, the servo motor at the end of the conveyor belt rotates left or right depending on the color and classifies the same color. We made it based on the Arduino we learned in class. And the conveyor belt is made from 3D printing.
 
 
 
