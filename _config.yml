@@ -51,6 +51,8 @@ author:
 menu:
   - title:             Adventure design
     url:               /#adventure-design
+  - title:             details
+    url:               /#details
   - title:             Embedded system design
     url:               /#embedded-system-design
 
