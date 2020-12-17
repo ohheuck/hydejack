@@ -50,9 +50,9 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Adventure design
-    url:               /#a-printable-resume
+    url:               /#adventure-design
   - title:             Embedded system design
-    url:               /#just-markdown
+    url:               /#embedded-system-design
 
 
 # Add links to the footer.
