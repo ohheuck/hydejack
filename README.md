@@ -13,7 +13,7 @@ Department of Electronic Engineering
 KyungHee University
 
 
-> You can contact me by <kwonoh3842@khu.ac.kr> or 01097713736
+> You can contact me at <kwonoh3842@khu.ac.kr> or 01097713736
 
 
 
