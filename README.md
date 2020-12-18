@@ -156,6 +156,7 @@ A brief introduction : We have created a machine that categorizes Lego by color 
 
 
 Please refer to the video below for further explanation.
+
 [![PowerPoint 슬라이드 쇼 최종발표 2020 12 18 11 19 41](http://img.youtube.com/vi/t8IkcnNZvcI/0.jpg)](https://youtu.be/t8IkcnNZvcI?t=0s) 
 
 
